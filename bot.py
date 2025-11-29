@@ -52,4 +52,4 @@ import os
 
 token = os.getenv("BOT_TOKEN")
 
-print("🔍 TOKEN CHECK:", token)
+bot.run(token)
