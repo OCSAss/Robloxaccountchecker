@@ -48,4 +48,6 @@ async def roblox(ctx, username: str):
 
     await ctx.send(embed=embed)
 
-bot.run("your discrod bot token")
+import os
+bot.run(os.getenv("BOT_TOKEN"))
+
