@@ -49,5 +49,8 @@ async def roblox(ctx, username: str):
     await ctx.send(embed=embed)
 
 import os
-bot.run(os.getenv("BOT_TOKEN"))
 
+token = os.getenv("BOT_TOKEN")
+print("TOKEN:", token)   # временно добавь
+
+bot.run(token)
