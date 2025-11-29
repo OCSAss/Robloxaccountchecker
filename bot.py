@@ -50,7 +50,5 @@ async def roblox(ctx, username: str):
 
 import os
 
-token = os.getenv("BOT_TOKEN")
-print("TOKEN:", token)   # временно добавь
-
+token = os.getenv("MTQ0NDI4MzM4NzI1Nzk0NjE2Mw.GR7RAl.D4lXhBYFBsIfD0yjiETZ7F6dw5N5pVChrfxqrw")
 bot.run(token)
